@@ -22,7 +22,7 @@ Stop worker nodes component services
  sudo systemctl status kubelet kube-proxy
 ```
 
-Download kubernetes binaries with newer version and deply
+Download kubernetes binaries with newer version and deploy
 ```
  DOWNLOAD_URL=https://storage.googleapis.com/kubernetes-release/release
  KUBE_NEW=v1.16.10
@@ -43,9 +43,9 @@ Start worker nodes component services
 Uncordon upgraded worker node to allow pods to be scheduled on the upgraded node
 ```
  kubectl uncordon worker-0
-````
+```
 
-Repeat the this process on the remaining worker nodes
+Repeat this process on the remaining worker nodes
 Now, kubectl shall report newer versions on the worker nodes
 ```
  kubectl get nodes
