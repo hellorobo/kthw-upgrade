@@ -46,3 +46,5 @@ From above we can take the following conclusions:
 
 
 > Disclaimer: because KTHW is a lab environment backup and roll-back steps are out of scope of this exercise.
+
+ Next: [Control Plane upgrade](03-control-plane-upgrade.md)
