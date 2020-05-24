@@ -110,3 +110,5 @@ sudo systemctl start etcd
 sudo curl -s --cacert /etc/etcd/ca.pem --cert /etc/etcd/kubernetes.pem --key /etc/etcd/kubernetes-key.pem  https://localhost:2379/version
 	{"etcdserver":"3.4.9","etcdcluster":"3.4.0"}
 ```
+
+Next: [Other binaries upgrade](07-other-binaries-upgrade.md)

@@ -26,3 +26,5 @@ Now when we check kubectl version we have finally all components at the same lev
   Client Version: v1.16.10
   Server Version: v1.16.10
 ```
+
+Next: [Etcd upgrade](06-etcd-upgrade.md)
