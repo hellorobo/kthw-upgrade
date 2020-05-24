@@ -46,7 +46,7 @@ CNTD_VER=1.3.4
   sudo mv containerd/bin/* /bin/
 }
 ```
-### Start worker nodes component services
+#### Start worker nodes component services
 
 ```
  sudo systemctl start containerd
