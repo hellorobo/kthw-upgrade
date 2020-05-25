@@ -36,7 +36,7 @@ Start control plane services
 ```
 
 
-Repeat the this process on the remaining control plane nodes
+Repeat this process on the remaining control plane nodes
 
 Now that you have got controller upgraded let’s verify cluster versions and health from management machine
 ```
