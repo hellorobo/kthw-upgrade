@@ -22,7 +22,7 @@ Stop worker nodes component services
  sudo systemctl status kubelet kube-proxy
 ```
 
-Download kubernetes binaries with newer version and deploy
+Download kubernetes binaries with a newer version and deploy
 ```
  DOWNLOAD_URL=https://storage.googleapis.com/kubernetes-release/release
  KUBE_NEW=v1.16.10
@@ -52,7 +52,7 @@ Now, kubectl shall report newer versions on the worker nodes
   NAME        STATUS   ROLES    AGE     VERSION
   worker-0    Ready    <none>   1d22h   v1.16.10
   worker-1    Ready    <none>   1d22h   v1.16.10
-  worker-1    Ready    <none>   1d22h   v1.16.10
+  worker-2    Ready    <none>   1d22h   v1.16.10
 ```
 
  Next: [Management Client upgrade](05-management-client-upgrade.md)

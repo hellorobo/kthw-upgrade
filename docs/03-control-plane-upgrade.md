@@ -15,7 +15,7 @@ Since kube-apiserver request are load balanced we can safely stop control planeâ
  sudo systemct status kube-apiserver kube-controller-manager kube-scheduler
 ```
 
-Download kubernetes binaries with newer version and deploy 
+Download kubernetes binaries with a newer version and deploy 
 ```
  DOWNLOAD_URL=https://storage.googleapis.com/kubernetes-release/release
  KUBE_NEW=v1.16.10

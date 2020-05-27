@@ -3,7 +3,7 @@
 While deploying and bootstrapping KTHW cluster you have installed couple of additional worker nodes binaries
 They shall be upgraded node by node
 
-#### Exict pods from worker node 
+#### Evict pods from worker node 
 Before executing worker node upgrade we shall make sure its pods go to another node and mark it as temporarily unschedulable.
 
  From management machine run drain command to safely evict pods from the first worker node
@@ -66,3 +66,6 @@ Uncordon upgraded worker node to allow pods to be scheduled on the upgraded node
 Repeat this process on the remaining worker nodes
 
 
+***
+
+**CONGRATULATIONS! You have now successfully upgraded KTHW cluster, the hard way!**

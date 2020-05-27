@@ -9,7 +9,7 @@ On management machine verify the current client version
   Client Version: v1.15.3
 ```
 
-Download kubectl binary with newer version and deploy
+Download kubectl binary with newer a version and deploy
 ```
  DOWNLOAD_URL=https://storage.googleapis.com/kubernetes-release/release
  KUBE_NEW=v1.16.10
